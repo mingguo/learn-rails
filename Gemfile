@@ -15,6 +15,7 @@ gem 'google_drive'
 gem 'high_voltage'
 gem 'simple_form'
 gem 'zurb-foundation'
+gem 'pg'
 
 group :development do
 	gem 'better_errors' 
@@ -31,5 +32,5 @@ end
 
 group :assets do
 #  gem 'sass-rails' # if running rails 3.1 or greater
-#  gem 'compass-rails'
+  gem 'compass-rails'
 end
